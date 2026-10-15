@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#a6d8e9"/><stop offset="1" stop-color="#fff0bf"/></linearGradient></defs>
+<rect width="1200" height="675" fill="url(#sky)"/>
+<circle cx="930" cy="135" r="62" fill="#fff0bf" opacity=".9"/>
+<path d="M0 470 L210 210 390 430 575 155 810 450 990 250 1200 440 V675 H0Z" fill="#6b9a9b"/>
+<path d="M0 535 L220 355 410 500 650 290 860 520 1040 370 1200 510 V675 H0Z" fill="#365d67"/>
+<path d="M520 230 L575 155 642 276 600 258 576 278 554 255Z" fill="#f5f3e7" opacity=".92"/>
+<path d="M0 590 Q280 540 520 600 T1200 570 V675 H0Z" fill="#193f3b" opacity=".38"/>
+<text x="55" y="615" fill="#ffffff" font-family="Arial, sans-serif" font-size="34" letter-spacing="4" opacity=".85">STILL WATERS</text>
+</svg>

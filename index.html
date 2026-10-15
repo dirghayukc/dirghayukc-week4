@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature & Travel Image Slider</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="slider.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="intro">
+      <p class="eyebrow">EXPLORE THE WORLD</p>
+      <h1>Nature & Travel</h1>
+      <p class="subtitle">
+        A small collection of places worth discovering.
+      </p>
+    </header>
+
+    <section class="slider"
+      aria-label="Nature and travel image slider">
+
+      <div class="slider-viewport">
+        <div class="slider-track">
+
+          <figure class="slide">
+            <img src="images/mountain.svg"
+              alt="Snow-capped mountains beneath a blue sky">
+            <figcaption>Mountain Escape</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="images/coast.svg"
+              alt="Coastal cliffs beside turquoise water">
+            <figcaption>Coastal Calm</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="images/forest.svg"
+              alt="Sunlight falling through a green forest">
+            <figcaption>Forest Trail</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="images/desert.svg"
+              alt="Golden desert dunes at sunset">
+            <figcaption>Golden Dunes</figcaption>
+          </figure>
+
+          <figure class="slide">
+            <img src="images/lake.svg"
+              alt="A quiet alpine lake surrounded by hills">
+            <figcaption>Still Waters</figcaption>
+          </figure>
+
+        </div>
+
+        <button class="nav-button previous"
+          type="button" aria-label="Previous slide">
+          &#10094;
+        </button>
+
+        <button class="nav-button next"
+          type="button" aria-label="Next slide">
+          &#10095;
+        </button>
+      </div>
+
+      <div class="slider-footer">
+        <div class="slider-dots"
+          aria-label="Choose a slide"></div>
+
+        <p class="slide-count" aria-live="polite">
+          01 / 05
+        </p>
+      </div>
+    </section>
+
+    <p class="hint">
+      Use the arrows, indicator dots, or left and right arrow keys.
+    </p>
+  </main>
+</body>
+</html>
